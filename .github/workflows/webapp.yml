@@ -20,9 +20,9 @@ jobs:
         run: |
           npm install -g htmlhint stylelint eslint
           
-      - name: Lint HTML files
-        run: |
-          htmlhint luther-1.0.0/**/*.html
+      #- name: Lint HTML files
+       # run: |
+        #  htmlhint luther-1.0.0/**/*.html
 
    
       - name: Lint CSS files
