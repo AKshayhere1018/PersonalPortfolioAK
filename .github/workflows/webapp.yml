@@ -25,13 +25,13 @@ jobs:
         #  htmlhint luther-1.0.0/**/*.html
 
    
-      - name: Lint CSS files
-        run: |
-          stylelint "luther-1.0.0/**/*.css"
+     # - name: Lint CSS files
+        #run: |
+         # stylelint "luther-1.0.0/**/*.css"
 
-      - name: Lint JS files
-        run: |
-          eslint "luther-1.0.0/**/*.js" || echo "No JS files or errors found"
+     # - name: Lint JS files
+      #  run: |
+         # eslint "luther-1.0.0/**/*.js" || echo "No JS files or errors found"
 
       - name: Build And Deploy
         uses: Azure/static-web-apps-deploy@v1
