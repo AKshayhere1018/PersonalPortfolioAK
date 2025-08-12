@@ -1,5 +1,8 @@
-Personal Portfolio Website - DevOps Project
+Personal Portfolio Website 
+
 This project features a static portfolio website hosted on Azure Static Web Apps, with infrastructure provisioned using Terraform. The website code is managed on GitHub with automated deployment via GitHub Actions. A custom domain purchased from GoDaddy is connected to the web app to provide a professional URL.
+
+@akshygt.shop
 
 Key Highlights — 
 
